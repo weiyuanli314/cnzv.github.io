@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CN Zoomer Values</title>
+    <link rel="icon" href="img/favicon.jpg">
+
+    <!-- Social Media Preview Meta Tags -->
+    <meta property="og:title" content="CN Zoomer Values">
+    <meta property="og:description" content="CN Zoomer Values 是一个专为简中互联网上的玩网小登设计的意识形态测试，通过 8 个维度来评估你在简中互联网潮流中的抽象程度。">
+    <meta property="og:image" content="https://cnzv.github.io/img/social-preview.png">
+    <meta property="og:url" content="https://cnzv.github.io/">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CN Zoomer Values">
+    <meta name="twitter:description" content="CN Zoomer Values 是一个专为简中互联网上的玩网小登设计的意识形态测试，通过 8 个维度来评估你在简中互联网潮流中的抽象程度。">
+    <meta name="twitter:image" content="https://cnzv.github.io/img/social-preview.png">
+    <!-- End Social Media Preview Meta Tags -->
+
+    <script src="https://registry.npmmirror.com/jquery/3.7.1/files/dist/jquery.min.js"></script>
+    <script src="https://testingcf.jsdelivr.net/npm/@materializecss/materialize@2.2.1/dist/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <link rel="stylesheet" href="https://testingcf.jsdelivr.net/npm/@materializecss/materialize@2.2.1/dist/css/materialize.min.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.cn/css2?family=Material+Symbols+Rounded">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        $(function () {
+            $("#navbar-container").load("navbar.html", function () {
+                // navbar.html 加载完成
+            });
+        });
+    </script>
+
+    <main class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m8 offset-m2 l6 offset-l3 center-align">
+                    <img src="img/header.png" alt="Header Image" class="responsive-img">
+                </div>
+            </div>
+            <h1 class="center-align primary-text mt-4 mb-4">CN Zoomer Values</h1>
+            <h5 class="center-align on-surface-variant-text">CN Zoomer Values 是一个专为简中互联网上的玩网小登设计的意识形态测试，通过 8 个维度来评估你在简中互联网潮流中的抽象程度。</h5>
+
+            <div class="row center-align">
+                <div class="col s12 m12 l12">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header flow-text">
+                                <div class="valign-wrapper">
+                                    <i class="material-symbols-rounded">privacy_tip</i><span>测试说明<span class="error-text" style="font-weight: bold;">（开始测试前必读，点击开始即视为同意）</span></span>
+                                </div>
+                            </div>
+                            <div class="collapsible-body">
+                                <p class="flow-text on-surface-variant-text"> 
+                                    接下来你将会看到一系列由 AI 辅助生成的抽象网络发言，请凭借你对每个发言的第一感觉选择同意或反对的程度，共有 7 个级别。
+                                </p>
+                                <p class="flow-text on-surface-variant-text"> 
+                                    <b>注意：为了如实体现简中互联网的抽象特质，发言包含大量魔怔和极端的表述，<span class="error-text">严重情况下可能会导致创伤触发</span>。如您感到不适，请迅速关闭本测试。</b>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a id="start-quiz-btn" href="quiz.html" class="btn filled rounded btn-large waves-effect waves-light">
+                        点击开始
+                    </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card col s12 m12 l12 mt-4">
+                    <div class="card-content">
+                        <h5 class="center-align on-surface-text flow-text mt-0 mb-4">Frequently Asked Questions</h5>
+                        <p class="flow-text on-surface-variant-text">
+                            本测试完全由前端实现，不会收集任何个人信息，测试结果仅供娱乐。
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer primary mt-0 pt-0">
+        <div class="container">
+        </div>
+        <div class="footer-copyright">
+            <div class="container on-primary-text">
+                Made by Claude, DeepSeek, Gemini & GPT
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
