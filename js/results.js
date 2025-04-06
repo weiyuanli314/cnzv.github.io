@@ -130,7 +130,7 @@ $(document).ready(async () => {
         M.FloatingActionButton.init($('.fixed-action-btn'));
         var tooltips = document.querySelectorAll('.tooltipped');
         M.Tooltip.init(tooltips, {});
-        new M.Toast({text: '点击右下角分享按钮可保存测试结果', displayLength: 1500});
+        new M.Toast({text: '点击右下角分享按钮可保存测试结果', displayLength: 3000});
     } catch (e) {
         console.error("Error initializing Materialize components:", e);
     }

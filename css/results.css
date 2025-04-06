@@ -52,6 +52,14 @@ main {
     background: var(--md-sys-color-surface-variant);
 }
 
+.axis:first-child {
+    margin-top: 0;
+}
+
+.axis:last-child {
+    margin-bottom: 0;
+}
+
 .fab-share {
     right: var(--results-fab-right);
 }
