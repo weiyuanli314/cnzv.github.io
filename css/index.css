@@ -10,13 +10,8 @@ main {
     padding-bottom: 2rem;
 }
 
-.collapsible {
-    border-radius: 12px; /* Custom border-radius */
-}
-
 .collapsible-header.flow-text {
     text-align: justify;
-    border-bottom: none;
 }
 
 .collapsible-header.flow-text::after {
@@ -28,10 +23,5 @@ main {
 }
 
 .collapsible-body {
-    text-align: justify;
-    border-bottom: none;
-}
-
-.card .card-content {
     text-align: justify;
 }

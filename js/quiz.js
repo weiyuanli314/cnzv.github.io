@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+    // Load navbar
+    $("#navbar-container").load("navbar.html");
+
     // --- State Variables ---
     let questionsById = new Map(); // Map to store questions by their ID
     let shuffledQuestionIds = [];  // Array to store the shuffled order of question IDs

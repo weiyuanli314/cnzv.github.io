@@ -124,6 +124,9 @@ function get_value(key) {
 // --- Document Ready Handler ---
 $(document).ready(async () => {
 
+    // Load navbar
+    $("#navbar-container").load("navbar.html");
+    
     initialize();
 
     try {

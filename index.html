@@ -6,7 +6,6 @@
     <title>CN Zoomer Values</title>
     <link rel="icon" href="img/favicon.jpg">
 
-    <!-- Social Media Preview Meta Tags -->
     <meta property="og:title" content="CN Zoomer Values">
     <meta property="og:description" content="CN Zoomer Values 是一个专为简中互联网上的玩网小登设计的意识形态测试，通过 8 个维度来评估你在简中互联网潮流中的抽象程度。">
     <meta property="og:image" content="https://cnzv.github.io/img/social-preview.png">
@@ -17,7 +16,6 @@
     <meta name="twitter:title" content="CN Zoomer Values">
     <meta name="twitter:description" content="CN Zoomer Values 是一个专为简中互联网上的玩网小登设计的意识形态测试，通过 8 个维度来评估你在简中互联网潮流中的抽象程度。">
     <meta name="twitter:image" content="https://cnzv.github.io/img/social-preview.png">
-    <!-- End Social Media Preview Meta Tags -->
 
     <script src="https://registry.npmmirror.com/jquery/3.7.1/files/dist/jquery.min.js"></script>
     <script src="https://testingcf.jsdelivr.net/npm/@materializecss/materialize@2.2.1/dist/js/materialize.min.js"></script>
@@ -30,13 +28,6 @@
 
 <body>
     <div id="navbar-container"></div>
-    <script>
-        $(function () {
-            $("#navbar-container").load("navbar.html", function () {
-                // navbar.html 加载完成
-            });
-        });
-    </script>
 
     <main class="container">
         <div class="section">
@@ -68,20 +59,48 @@
                         </li>
                     </ul>
 
-                    <a id="start-quiz-btn" href="quiz.html" class="btn filled rounded btn-large waves-effect waves-light">
+                    <a id="start-quiz-btn" href="quiz.html" class="btn filled rounded btn-large waves-effect waves-light mt-4 mb-4">
                         点击开始
                     </a>
             </div>
         </div>
 
-        <div class="row">
-            <div class="card col s12 m12 l12 mt-4">
-                    <div class="card-content">
-                        <h5 class="center-align on-surface-text flow-text mt-0 mb-4">Frequently Asked Questions</h5>
-                        <p class="flow-text on-surface-variant-text">
-                            本测试完全由前端实现，不会收集任何个人信息，测试结果仅供娱乐。
-                        </p>
-                    </div>
+        <div class="row center-align">
+            <div class="col s12 m12 l12 mt-4">
+                <div class="divider"></div>
+                <h4 class="center-align on-surface-text mt-4 mb-4">Frequently Asked Questions</h4>
+                <ul class="collapsible expandable">
+                    <li class="active">
+                        <div class="collapsible-header flow-text valign-wrapper">
+                            <i class="material-symbols-rounded">help</i>你在后台收集测试结果吗？
+                        </div>
+                        <div class="collapsible-body">
+                            <p class="flow-text on-surface-variant-text">
+                                本测试完全由前端实现，不会收集任何个人信息。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header flow-text valign-wrapper">
+                            <i class="material-symbols-rounded">help</i><span>已经有 <a href="https://www.politicalcompass.org/" target="_blank">Political Compass</a>、<a href="https://8values.github.io/" target="_blank">8values</a>、<a href="https://politiscales.party/" target="_blank">PolitiScales</a>……了，为什么还要重新造轮子？</span>
+                        </div>
+                        <div class="collapsible-body">
+                            <p class="flow-text on-surface-variant-text">
+                                英文互联网上的各种政治测试，不管是出的题目还是计算测试结果的算法，都是以欧美国家的现实为基准。问题在于，欧美人关心的议题在简中圈未必就同等关心，反之亦然。更不用说简单以“左右”进行政治立场划分已经越来越捉襟见肘，不仅在欧美如此，在简中语境下更是有很多含混之处。因此，要想描述简中互联网网民的意识形态，必须跳出传统左右政治的框架，摒弃各种“主义”类大词，去找到中国现实中存在的、涉及切身利益的尖锐矛盾（他们很难被简单归属到左右任何一边），通过一个人在这些尖锐矛盾上的态度来描述他的意识形态。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header flow-text valign-wrapper">
+                            <i class="material-symbols-rounded">help</i>测试不准/不喜欢测试结果/你在恶意抹黑 XXX/你屁股歪了
+                        </div>
+                        <div class="collapsible-body">
+                            <p class="flow-text on-surface-variant-text">
+                                测试结果仅供娱乐，不具有任何研究价值。如果有任何改进本测试的想法，欢迎提交 Issues 和 Pull requests。如果只是想要一个满意的测试结果，也可以直接跳过测试环节，手动修改网址里的参数（或许未来本测试会新增自定义测试结果的功能）。
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
