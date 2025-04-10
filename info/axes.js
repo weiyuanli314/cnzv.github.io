@@ -51,9 +51,9 @@ axes = [
         "id": "group",
         "name": "群己关系",
         "left": "自私自利",
-        "right": "抱团共生",
+        "right": "集体至上",
         "leftEmoji": "💰",
-        "rightEmoji": "🫂"
+        "rightEmoji": "⚙️"
     },
     {
         "id": "world",
