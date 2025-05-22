@@ -62,5 +62,13 @@ axes = [
         "right": "孤立排外",
         "leftEmoji": "🌐",
         "rightEmoji": "🚧"
+    },
+    {
+        "id":"nationalism",
+        "name":"民族主义",
+        "left":"黄汉至上",
+        "right": "团结主义",
+        "leftEmoji":"🔆",
+        "rightEmoji":"🫶"
     }
 ]; 
